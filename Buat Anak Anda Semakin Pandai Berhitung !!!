@@ -1,0 +1,22 @@
+// Buat Anak Anda Semakin Pandai Berhitung !!!
+// Designed by: Azfazaki Hakimi
+//---------------------------------------------//
+#include<iostream>
+
+int main(){
+    using namespace std;
+
+    int angka1, angka2, hasil;
+
+    cout << "Angka pertama: ";
+    cin >> angka1;
+
+    cout << "Angka kedua: ";
+    cin >> angka2;
+
+    hasil = angka1 + angka2;
+
+    cout << "Ketika dijumlahkan: " << hasil;
+
+    return 0;
+}
